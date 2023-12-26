@@ -6,11 +6,44 @@ div{
     font-weight: 100;
     font-size: 24px;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 60px auto;
 }
 
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 40px;
     font-weight: 200;
-    color: brown;
+    color: orange;
+    text-align: center;
+}
+
+h1 span {
+    background-color: black;
+}
+
+.container {
+    object-fit: contain;
+}
+
+.ingredients {
+    display: block;
+    text-align: center;
+    background-size: auto;
+    font-size: larger;
+}
+
+li span{
+    background-color: red
+}
+
+ol {
+    font-size: large;
+}
+
+.extra-ingredients{
+    display: block;
+    text-align:left
+    background-size: auto;
+    font-size: large;
 }
